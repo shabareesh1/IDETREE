@@ -1,0 +1,103 @@
+html,
+body,
+#root {
+  background: #111316;
+  color: #c5c5c5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  border-right: yellowgreen;
+
+}
+
+ul{
+  list-style-type: none;
+}
+span{
+position: relative;
+  //top:-15px;
+  margin-left: 10px;
+}
+li{
+  margin-top: 5px;
+}
+
+.Delete_button{
+  background-color: yellowgreen;
+  margin-left:50px
+
+}
+
+.mainContent{
+  width: 35%;
+  height:auto;
+  border: 1px solid #605F61;
+ // border-right: 1px solid antiquewhite;
+
+
+}
+.icon-child{
+  position: relative;
+  top:5px;
+}
+
+.icon-arrow {
+position: relative;
+top: 27px;
+}
+
+.icon-name{
+  margin-left: 25px;
+}
+
+
+.icon-alter{
+  position: relative;
+  top: 27px;
+}
+
+
+.btn-style{
+
+}
+
+
+
+
+
+
+.icon-arrow-grandchild{
+
+  position: relative;
+  top: 25px;
+
+}
+
+.child-elememts{
+  display: flex;
+
+  border: 1px solid green;
+  align-items: stretch;
+}
+
+
+
+.divbutton {
+ // background: green;
+}
+
+button {
+  background: #605F61;
+  //outline:white solid 0.5px;
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+  border: none;
+  display: none;
+}
+
+.divbutton:hover button {
+  display: block;
+}
